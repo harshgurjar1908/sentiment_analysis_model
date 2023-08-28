@@ -1,0 +1,57 @@
+body {
+  background-image: url("back.jpg");
+  background-size: 100% 100%;
+}
+.heading {
+  color: beige;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  font-size: 42;
+  text-align: center;
+}
+
+.input {
+  color: beige;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  font-size: 25;
+  text-align: left;
+}
+
+#submitbtn1 {
+  color: yellow;
+  background-color: rgb(32, 55, 65);
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  font-size: 15;
+  text-align: left;
+}
+
+#submitbtn2 {
+    color: yellow;
+    background-color: rgb(32, 55, 65);
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    font-size: 15;
+    text-align: left;
+  }
+#sbar {
+  width: 300px;
+  height: 100px;
+}

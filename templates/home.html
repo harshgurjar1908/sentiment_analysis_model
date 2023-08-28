@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}" />
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1>Sentiment Analysis Model</h1>
+    </div>
+    <div class="input">
+      <form action="http://127.0.0.1:5000/result" method="post">
+        <h2 class="inthead">Enter Your Text</h2>
+        <input
+          type="textarea"
+          name="s"
+          placeholder="Write here(max. words 500)"
+          id="sbar"
+        /><br /><br />
+        <button id="submitbtn1">Analyze</button>
+        <button type="reset" id="submitbtn2">Clear</button>
+      </form>
+    </div>
+  </body>
+</html>

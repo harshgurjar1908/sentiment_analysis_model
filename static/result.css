@@ -1,0 +1,49 @@
+body {
+  background-image: url("back.jpg");
+  background-size: 100% 100%;
+}
+
+a:link,a:visited{
+  background-color: rgb(31, 104, 159);
+  color: yellowgreen;
+  border: 2px solid rgb(31, 104, 159);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.homelink {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 20;
+  text-align: center;
+  text-underline-position: none;
+}
+.heading {
+  color: beige;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  font-size: 30;
+  text-align: center;
+}
+.result {
+  color: beige;
+  display: flex;
+  position: absolute;
+  top: 53%;
+  left: 60%;
+  font-size: 20;
+}
+
+.emoimage {
+  display: flex;
+  position: absolute;
+  width: 3cm;
+  height: 3cm;
+  top: 35%;
+  left: 65%;
+}

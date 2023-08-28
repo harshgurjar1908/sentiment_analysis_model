@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{url_for('static',filename='result.css')}}" />
+  </head>
+
+  <body>
+    <div class="homelink"><a href="http://127.0.0.1:5000">Home</a></div>
+
+    <div class="heading">
+      <h1>Sentiment Analysis Model Result</h1>
+    </div>
+    <div class="emoimage">
+      {% if y =="Positive": %}
+      <img 
+      src="{{url_for('static',filename='positive.png')}}"
+      />
+      {% else %}
+      <img 
+      src="{{url_for('static',filename='negative.png')}}" 
+      />
+      {% endif %}
+    </div>
+    <div class="result">
+      Your statement is: {{ x}}<br /><br />
+      Sentiment: {{ y}} <br /><br />
+      Accuracy: {{ z}}%<br />
+    </div>
+  </body>
+</html>
